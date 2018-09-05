@@ -1,4 +1,5 @@
 import React from 'react';
+import { hot } from 'react-hot-loader';
 
 
 class MainFrame extends React.Component {
@@ -16,4 +17,4 @@ class MainFrame extends React.Component {
 }
 
 
-export default MainFrame;
+export default hot(module)(MainFrame);
